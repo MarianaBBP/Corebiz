@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+footer {
+    margin-top: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 20px;
+    padding-left:200px;
+    padding-right: 200px;
+}
+footer .address {
+   color: white;
+   
+}
+
+footer .address h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: white;
+}
+
+footer .address h3::after{
+    display: block;
+    height: 5px;
+    width: 45px;
+    background-color: white;
+    content: "";
+    margin-top: 16px;
+}
+
+footer .address a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 12px;
+} 
+footer .contact {
+    margin: 0 auto;
+}
+footer .contact ul li{
+    background-color: white;
+    margin-bottom: 25px;
+    border-radius: 5px;
+
+}
+footer .contact ul li:last-child{
+    margin-bottom: 0;
+}
+footer .contact ul li a{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+}
+footer .contact ul li a::before{
+    content: '';
+    background-image: url('image/envelope.jpg');
+    height: 12px;
+    width: 12px;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-right: 18px;
+    font-size: 12px;
+   
+} 
+footer .contact ul li:last-child a::before{
+    background-image: url('image/headfone.jpg');
+}
+@media screen and (max-width: 375px){
+footer {
+    background: red;
+}
+}
+footer .created div{
+    float: left;
+    width: 130px;
+}
+footer .created p{
+    width: 57.2px;
+    height: 12.21px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.6px;
+    line-height: 14px;
+    color: white;
+}
